@@ -65,7 +65,7 @@ class App extends Component {
 
     this.state.chartArrayFirst.map(item => {
       dataChartFirst.push({x: `${Math.round(new Date(item.timestamp).getHours())}:${Math.round(new Date(item.timestamp).getMinutes())}:${Math.round(new Date(item.timestamp).getSeconds())}`, y: item.data})
-      console.log(dataChartFirst)
+      // console.log(dataChartFirst)
     })
 
     this.state.chartArraySecond.map(item => {
